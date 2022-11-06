@@ -92,4 +92,4 @@
            d. Heat map for correlation matrix.
            e. Pie chart to show the population distribution across different types of places (village, urban, town etc.)
 
-Download the data sets from here .
+Download the data sets from [here](https://github.com/Simplilearn-Edu/Data-Science-Capstone-Projects/blob/master/Project_1.zip).
