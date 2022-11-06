@@ -31,25 +31,26 @@
 3. Gauge the fill rate of the variables and devise plans for missing value treatment. Please explain explicitly the reason for the treatment chosen for each variable.
 
 **Exploratory Data Analysis (EDA):**<br>
+
 4. Perform debt analysis. You may take the following steps:<br>
 
-           a. Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map. You may keep the upper limit for the percent of households with a second mortgage to 50 percent<br>
-           b. Use the following bad debt equation: Bad Debt = P (Second Mortgage ∩ Home Equity Loan) Bad Debt = second_mortgage + home_equity - home_equity_second_mortgage<br>
-           c. Create pie charts to show overall debt and bad debt<br>
-           d. Create Box and whisker plot and analyze the distribution for 2nd mortgage, home equity, good debt, and bad debt for different cities<br>
-           e. Create a collated income distribution chart for family income, house hold income, and remaining income<br>
+           a. Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map. You may keep the upper limit for the percent of households with a second mortgage to 50 percent
+           b. Use the following bad debt equation: Bad Debt = P (Second Mortgage ∩ Home Equity Loan) Bad Debt = second_mortgage + home_equity - home_equity_second_mortgage
+           c. Create pie charts to show overall debt and bad debt
+           d. Create Box and whisker plot and analyze the distribution for 2nd mortgage, home equity, good debt, and bad debt for different cities
+           e. Create a collated income distribution chart for family income, house hold income, and remaining income
  
-**Project Task: Week 2**<br>
+**Project Task: Week 2**
 **Exploratory Data Analysis (EDA):**
 
 1. Perform EDA and come out with insights into population density and age. You may have to derive new fields (make sure to weight averages for accurate measurements):
 
-           a. Use pop and ALand variables to create a new field called population density<br>
+           a. Use pop and ALand variables to create a new field called population density
            b. Use male_age_median, female_age_median, male_pop, and female_pop to create a new field called median age c) Visualize the findings using appropriate chart type
   
-2. Create bins for population into a new variable by selecting appropriate class interval so that the number of categories don’t exceed 5 for the ease of analysis.<br>
+2. Create bins for population into a new variable by selecting appropriate class interval so that the number of categories don’t exceed 5 for the ease of analysis.
 
-           a. Analyze the married, separated, and divorced population for these population brackets<br>
+           a. Analyze the married, separated, and divorced population for these population brackets
            b. Visualize using appropriate chart type
 
 3. Please detail your observations for rent as a percentage of income at an overall level, and for different states.<br>
@@ -69,25 +70,26 @@
 **Project Task: Week 4**<br>
 **Data Modeling :**
 
-1. Build a linear Regression model to predict the total monthly expenditure for home mortgages loan. Please refer ‘deplotment_RE.xlsx’. Column hc_mortgage_mean is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location. Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean.<br>
+1. Build a linear Regression model to predict the total monthly expenditure for home mortgages loan. Please refer ‘deplotment_RE.xlsx’. Column hc_mortgage_mean is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location. Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean.
 
-           a. Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.<br>
-           b. Run another model at State level. There are 52 states in USA.<br>
-           c. Keep below considerations while building a linear regression model. Data Modeling :<br>
+           a. Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.
+           b. Run another model at State level. There are 52 states in USA.
+           c. Keep below considerations while building a linear regression model. Data Modeling :
 
-* Variables should have significant impact on predicting Monthly mortgage and owner costs<br>
+* Variables should have significant impact on predicting Monthly mortgage and owner costs
 * Utilize all predictor variable to start with initial hypothesis
 * R square of 60 percent and above should be achieved
 * Ensure Multi-collinearity does not exist in dependent variables
 * Test if predicted variable is normally distributed
 
 **Data Reporting:**<br>
+
 2. Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:
 
-           a. Box plot of distribution of average rent by type of place (village, urban, town, etc.).<br>
+           a. Box plot of distribution of average rent by type of place (village, urban, town, etc.).
            b. Pie charts to show overall debt and bad debt.<br>
-           c. Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map.<br>
-           d. Heat map for correlation matrix.<br>
-           e. Pie chart to show the population distribution across different types of places (village, urban, town etc.)<br>
+           c. Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map.
+           d. Heat map for correlation matrix.
+           e. Pie chart to show the population distribution across different types of places (village, urban, town etc.)
 
 Download the data sets from here .
